@@ -1,5 +1,5 @@
 module.exports = {
-    // Explain what function A does
+    
     functionA() {
         return 1+2;
     },
