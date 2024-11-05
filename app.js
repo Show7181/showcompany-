@@ -9,9 +9,9 @@ console.log(myModule.students["1"].names);
 console.log(myModule.students);
 myModule.updateStudentByid("2", { names: "Haloooo"});
 
-console.log(myModule.students["1"].names);
+
 
  myModule.deleteStudentByName("Halo");
 
-//  myModule.deleteStudentByClass("L3");
+myModule.deleteStudentByClass("L3");
  console.log(myModule.students);
