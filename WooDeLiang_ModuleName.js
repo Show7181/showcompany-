@@ -1,6 +1,10 @@
 
 module.exports = {
-    students : {},
+    students: {
+        "1": { names: "Halo", classes: "L1" },
+        "2": { names: "gg", classes: "L2" },
+        "3": { names: "halo", classes: "L3" }
+    },
     
 
     addNewStudent(studentList) {
@@ -50,10 +54,6 @@ module.exports = {
         }
     },
 
-    addTestStudents() {
-        this.addNewStudent({ id: "1", names: "Halo", classes: "L1" });
-        this.addNewStudent({ id: "2", names: "gg", classes: "L2" });
-        this.addNewStudent({ id: "3", names: "halo", classes: "L3" });
-    }
+    
   
 };

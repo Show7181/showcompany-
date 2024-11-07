@@ -1,5 +1,5 @@
 const myModule = require('./WooDeLiang_ModuleName.js'); 
-myModule.addTestStudents();
+
 
 
 console.log(myModule.students);
