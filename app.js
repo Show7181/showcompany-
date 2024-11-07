@@ -1,8 +1,7 @@
-const myModule = require('./WooDeLiang_ModuleName.js'); 
+const myModule = require('./WooDeLiang_schoolManagement.js'); 
 
+myModule.displayStudents(myModule.students);
 
-
-console.log(myModule.students);
 myModule.updateStudentByid("2", { names: "Haloooo"});
 
 
@@ -10,4 +9,5 @@ myModule.updateStudentByid("2", { names: "Haloooo"});
  myModule.deleteStudentByName("Halo");
 
 myModule.deleteStudentByClass("L3");
- console.log(myModule.students);
+
+myModule.displayStudents(myModule.students);

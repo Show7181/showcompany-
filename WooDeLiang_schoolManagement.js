@@ -54,6 +54,8 @@ module.exports = {
         }
     },
 
-    
+    displayStudents(students) {
+        console.log(students);
+    }
   
 };
