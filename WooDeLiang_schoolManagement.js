@@ -1,9 +1,9 @@
 
 module.exports = {
     students: {
-        "1": { names: "Halo", classes: "L1" },
-        "2": { names: "gg", classes: "L2" },
-        "3": { names: "halo", classes: "L3" }
+        "1": { names: "John", classes: "L1" },
+        "2": { names: "Peter", classes: "L2" },
+        "3": { names: "Alex", classes: "L3" }
     },
     
 
